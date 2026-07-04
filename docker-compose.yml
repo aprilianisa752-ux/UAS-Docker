@@ -4,12 +4,12 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        NAMA: "Mutiara Marsandia"
-        NIM: "251572010032"
+        NAMA: "Dieria Febriantin"
+        NIM: "251572010043"
         PRODI: "Sistem Informasi"
-        KAMPUS: "STMIK Tazkia"
+        KAMPUS: "STMK Tazkia"
         MINAT: "Cloud Computing dan Web Development"
-        ALASAN: "saya ingin membuat game yang seru dan dapat dimainkan seluruh dunia"
-        CITA: "Saya ingin menjadi desaineryang mebuat aplikasi mudah dipakai dan enak dililat"
+        ALASAN: "Saya memilih bidang IT karena ingin membuat game yang bisa digunakan diseluruh dunia."
+        CITA: "Saya ingin menjadi desainer membuat aplikasi."
     ports:
-      - "8087:80"
+      - "8086:80"
