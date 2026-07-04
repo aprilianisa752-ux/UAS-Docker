@@ -1,0 +1,15 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NAMA: "Mutiara Marsandia"
+        NIM: "251572010032"
+        PRODI: "Sistem Informasi"
+        KAMPUS: "STMIK Tazkia"
+        MINAT: "Cloud Computing dan Web Development"
+        ALASAN: "saya ingin membuat game yang seru dan dapat dimainkan seluruh dunia"
+        CITA: "Saya ingin menjadi desaineryang mebuat aplikasi mudah dipakai dan enak dililat"
+    ports:
+      - "8087:80"
